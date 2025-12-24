@@ -1,0 +1,19 @@
+Source: questx-icon-theme
+Section: universe/x11
+Priority: optional
+Maintainer: Develop Team <develop@home.heaven>
+Build-Depends:
+ debhelper (>= 10),
+ make
+Standards-Version: 4.7.2
+Homepage: https://samwhelp.github.io/questx-icon-theme/
+Vcs-Browser: https://github.com/samwhelp/questx-icon-theme
+Vcs-Git: https://github.com/samwhelp/questx-icon-theme.git
+
+Package: questx-icon-theme
+Architecture: all
+Depends:
+ ${misc:Depends}
+Description: Grey Icon Theme
+ QuestX Icon Theme is a Grey Icon Theme Pack.
+ Source from [QuestX](https://github.com/SethStormR/QuestX).
